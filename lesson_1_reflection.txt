@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    When I introduce a bug in my code, the bug will most likely appear in the codes that I have recently changed or added. Therefore, figuring out the liens of changed codes can help me pinpoint the exact location where the error will most likely be in.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By having the access to the entire history, I can clearly track what I have done in throughout the course of my project. I can find out which part I spent my most time on, and this analysis can prevent future errors and improves my efficiency at work. Also, previous histories let me keep track of what I have changed, thus giving me a hint of what to do as long as I get lost in the process. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    By manually choosing when to commit, we ensure that every commit comes with a logical change, and a human-written message is associated with this commit/change. This can hardly be achieved by automatically saved files, in which each version is only associated with a time period and does not reflect a logical change made by the programmer.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is used by developers who need a repository of codes. Usually, an application or a website is not composed by a single file, but a bunch of files that work together. Files interact with each other, and there is a large amount of dependencies between files. On the contrary, Google docs are mainly used with a single file, and different files in the docs seldom depend on each other. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    We can first figure out which versions of files exist using git log, and then find the content of the files in a specific version using git diff. If the file was not changed in this commit, we track back until we see a change in the file.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By using version control, I am sure that all of my previous versions of the application is stored, and can be retrieved at any time I want. Therefore, I can experiment with my code in a confident way, and once I made a mistake, I know that I can always revert to a previous working version. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git when I am in a team and develop an application with other people. I also want to use it when I develop a significant application myself and need a tool to let me track what I have done, and revert to a previous version once I made a failed experiment. 
