@@ -12,4 +12,8 @@ Describe the differences between forks, clones, and branches. When would you use
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    When Git stores a copy of the last known state of the remote, it will be much easier the next time Git pull from the remote. Git will know where things were left off last time, and then it is able to catch up the update quickly and easily.    
+    When Git stores a copy of the last known state of the remote, it will be much easier the next time Git pull from the remote. Git will know where things were left off last time, and then it is able to catch up the update quickly and easily. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    Without using GitHub, we can pass files by emails or clouds, and each time I have made a change, I will send all files to all of my teammates. It is hard in this way to track changes made by different people. It is also hard to transmit all files every time I made a change. 
